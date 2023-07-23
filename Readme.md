@@ -1,1 +1,5 @@
-i had some issues and error publishing the site  in github i am trying to fix it as soon as its done i will update the submission 
+
+
+# Github pages link: https://abhinair203.github.io/Csschallenge2/
+
+I had some issues and errors publishing the site  during the submission date. so i fixed the entire think and here is my published page 
