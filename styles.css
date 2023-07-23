@@ -1,0 +1,110 @@
+/* Resetting margins, padding and box-sizing for all elements */
+
+* {
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+}
+
+/* Setting font styles for body and headings */
+body {
+    font-family: 'Shantell Sans', cursive;
+    font-size: 1.125rem;
+    line-height: 1.6;   
+}
+
+/* headings */
+h1,
+h2, 
+h3, 
+h4, 
+h5, 
+h6 {
+    font-family: 'Rampart One', cursive;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+p:has(> a) {
+    text-align: center; 
+}
+
+
+/* Header styling */
+
+header {
+    height: 15vw;
+    background-color:#FF8360; 
+    color: #fff; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+}
+
+/* Wrapper for main content */
+.main-wrapper {
+    width: 80vw; 
+    margin: 0 auto;
+    border: none;
+    padding: 1em;  
+}
+
+/* section */ 
+.flex-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Styling for cat image */
+.flex-container img {
+    width: 50%;
+    object-fit: cover;
+}
+
+.flex-container > div {
+    background-color: #3CDBD3;
+    color: #000;
+    padding: 1em;
+    width: 50%;
+}
+/* Styling for yellow boxes */
+.yellow-boxes > div.box,
+footer > div.box {
+    padding: 1em;
+    margin: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.yellow-boxes > div.box {
+    background-color: #E8E288;
+}
+
+.yellow-boxes > div.box:first-child {
+    flex: 2;
+}
+
+.yellow-boxes > div.box:nth-child(n+2) {
+    flex: 1;
+}
+
+/* Footer boxes styling */
+footer > div.box.red {
+    background-color: #FF8360;
+    color: #fff;
+    flex: 0.1;
+}
+
+footer > div.box.green {
+    background-color: #7DCE82;
+    color: #fff;
+    flex: 0.34;
+}
+
+footer > div.box.flex-grow {
+    flex-grow: 1;
+}
